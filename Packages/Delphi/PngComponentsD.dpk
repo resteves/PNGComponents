@@ -42,6 +42,7 @@ contains
   PngImageList in '..\..\Source\PngImageList.pas',
   PngBitBtn in '..\..\Source\PngBitBtn.pas',
   PngButtonFunctions in '..\..\Source\PngButtonFunctions.pas',
-  PngCheckListBox in '..\..\Source\PngCheckListBox.pas';
+  PngCheckListBox in '..\..\Source\PngCheckListBox.pas',
+  PngExtra in '..\..\Source\PngExtra.pas';
 
 end.

@@ -4,7 +4,8 @@ interface
 
 uses
   Classes, DesignIntf, TypInfo,
-  PngSpeedButton, PngBitBtn, PngImageList, PngCheckListBox, PngComponentEditors;
+  PngSpeedButton, PngBitBtn, PngImageList, PngCheckListBox, PngComponentEditors,
+  PngExtra;
 
 procedure Register;
 
@@ -19,7 +20,7 @@ begin
 
   //Register all components
   RegisterComponents(SPageName, [TPngSpeedButton, TPngBitBtn, TPngImageList,
-    TPngImageCollection, TPngCheckListBox]);
+    TPngImageCollection, TPngCheckListBox, TPngButton]);
 
   //Register component editors
   RegisterComponentEditor(TPngImageList, TPngImageListEditor);
